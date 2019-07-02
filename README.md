@@ -77,7 +77,7 @@ If you find the dataset useful, please consider citing the dataset:
 ```bibtex
     @misc{danboorucharacter,
         author = {Yan Wang},
-        title = {https://github.com/grapeot/Danbooru2018AnimeCharacterRecognitionDataset},
+        title = {Danbooru 2018 Anime Character Recognition Dataset},
         howpublished = {\url{https://github.com/grapeot/Danbooru2018AnimeCharacterRecognitionDataset}},
         url = {https://github.com/grapeot/Danbooru2018AnimeCharacterRecognitionDataset},
         type = {dataset},
@@ -121,3 +121,4 @@ Note at the current stage the test set has not been verified by humans.
 ## Open problems
 
 * The test set for character recognition is to be verified by humans.
+* Still need to do more work on face alignment.
