@@ -74,6 +74,7 @@ If you find the dataset useful, please consider citing the dataset:
 * Yan Wang, "Danbooru2018 Anime Character Recognition Dataset," July 2019. https://github.com/grapeot/Danbooru2018AnimeCharacterRecognitionDataset 
 * Anonymous, The Danbooru Community, Gwern Branwen, & Aaron Gokaslan; “Danbooru2018: A Large-Scale Crowdsourced and Tagged Anime Illustration Dataset”, 3 January 2019. https://www.gwern.net/Danbooru2018
 
+```bibtex
     @misc{danboorucharacter,
         author = {Yan Wang},
         title = {https://github.com/grapeot/Danbooru2018AnimeCharacterRecognitionDataset},
@@ -82,7 +83,9 @@ If you find the dataset useful, please consider citing the dataset:
         type = {dataset},
         year = {2019},
         month = {July} }
+```
 
+```bibtex
     @misc{danbooru2018,
         author = {Anonymous, the Danbooru community, Gwern Branwen, Aaron Gokaslan},
         title = {Danbooru2018: A Large-Scale Crowdsourced and Tagged Anime Illustration Dataset},
@@ -93,6 +96,7 @@ If you find the dataset useful, please consider citing the dataset:
         month = {January},
         timestamp = {2019-01-02},
         note = {Accessed: DATE} }
+```
 
 ## Character Recognition Baseline
 
