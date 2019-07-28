@@ -67,6 +67,13 @@ The second column is the tag id, and the third column is the head detection resu
 Each detection result has five fields separated by commas, i.e. left, top, right, bottom, confidence in order.
 The tag text for each id can be seen in the file `tagIds.tsv`.
 
+We also have the cropped face images ready as a tarball.
+Many thanks to [gwern](https://github.com/gwern), you can now download the tarball using `rsync`:
+
+```bash
+rsync --verbose rsync://78.46.86.149:873/biggan/2019-07-27-grapeot-danbooru2018-animecharacterrecognition.tar ./
+```
+
 ### Cite the Dataset
 
 If you find the dataset useful, please consider citing the dataset:
@@ -103,9 +110,6 @@ If you find the dataset useful, please consider citing the dataset:
 We also provide a baseline for character recognition based on the dataset.
 If using a ResNet18 without SE, and use the ArcFace loss, we are able to achieve a testing accuracy of 37.3%.
 The model and a related demo will be released soon.
-
-While we also have the cropped face images ready as a tarball, given its size (5.7 GB), we are still not sure where to host it. 
-If you have proper resources, please feel free to open an issue.
 
 ### Data Split
 
